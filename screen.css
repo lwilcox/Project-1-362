@@ -44,16 +44,14 @@ form {
   padding-top: 1.222em;
   padding-bottom: 1.222em;
   border-radius: 25px;
+  margin: auto;
+  align-content: center;
 }
 
 form, li {
   display: flex;
   flex-flow: column;
   text-align: center;
-  align-content: center;
-  justify-content: center;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 #submit {
