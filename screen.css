@@ -18,13 +18,28 @@ html {
   padding-top: 1.222em;
 }
 
+body {
+  background-image: url("media/DSC05257.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+
 li {
   padding-bottom: 1.222em;
+}
+
+form {
+  display: block;
+  text-align: center;
+  align-self: center;
 }
 
 label,
 input {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #warning {
