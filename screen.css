@@ -25,22 +25,33 @@ body {
   background-position: fixed;
 }
 
-li {
-  padding-bottom: 1.222em;
-}
 
-form {
-  display: block;
+/*form {
+  /*display: block;
   text-align: center;
   align-self: center;
+} */
+
+input {
+  background-color: rgba(187, 188, 189, 0.4);
 }
 
-label,
-input {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+label {
+  color: white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 20;
 }
+
+form, li {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  align-content: center;
+}
+
 
 #warning {
   color: red;
