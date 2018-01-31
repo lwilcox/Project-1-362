@@ -19,10 +19,11 @@ html {
 }
 
 body {
-  background-image: url("media/DSC05257.jpg");
-  background-repeat: no-repeat;
+  background: url("media/DSC05257.jpg") no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: fixed;
 }
 
 input {
