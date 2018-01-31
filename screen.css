@@ -15,7 +15,7 @@ html {
   line-height: 1.222em;
   font-family: sans-serif;
   padding-left: 1.222em;
-  padding-top: 1.222em;
+  padding-top: 2.222em;
 }
 
 body {
@@ -43,6 +43,7 @@ form {
   width: 300px;
   padding-top: 1.222em;
   padding-bottom: 1.222em;
+  border-radius: 25px;
 }
 
 form, li {
