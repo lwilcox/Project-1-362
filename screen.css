@@ -18,6 +18,7 @@ html {
   padding-top: 2.222em;
 }
 
+/* This body section will probably need to be changed to a min-width media query */
 body {
   background: url("media/DSC05257.jpg") no-repeat center center fixed;;
   -webkit-background-size: cover;
