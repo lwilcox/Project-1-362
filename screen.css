@@ -25,33 +25,41 @@ body {
   background-position: fixed;
 }
 
-
-/*form {
-  /*display: block;
-  text-align: center;
-  align-self: center;
-} */
-
 input {
   background-color: rgba(187, 188, 189, 0.4);
+  width: 50%;
+  align-self: center;
 }
 
 label {
   color: white;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: 20;
+  padding-top: 0.5em;
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 300px;
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
 }
 
 form, li {
   display: flex;
   flex-flow: column;
-  background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
+  align-content: center;
+  justify-content: center;
   margin-left: 0;
   margin-right: 0;
-  align-content: center;
 }
 
+#submit {
+  background-color: none;
+  margin-top: 2em;
+  background:-moz-radial-gradient(51% 50% 35deg, #FFFFFF, #D1CFC7 68%)
+}
 
 #warning {
   color: red;
