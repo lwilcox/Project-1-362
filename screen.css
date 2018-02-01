@@ -45,6 +45,17 @@ h2 {
   color: rgba(0, 0, 0, 0.5);
 }
 
+a {
+  font-size: 0.624em;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+  margin-top: 0.79em;
+  letter-spacing: 0.3em;
+  color: white;
+  text-decoration: underline;
+}
+
 input {
   background-color: rgba(187, 188, 189, 0.4);
   width: 50%;
