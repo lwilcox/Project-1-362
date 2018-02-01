@@ -14,7 +14,6 @@ html {
   font-size: 1.125em;
   line-height: 1.222em;
   font-family: sans-serif;
-  padding-left: 1.222em;
   padding-top: 2.222em;
 }
 
@@ -27,6 +26,15 @@ body {
   background-size: cover;
 }
 
+h1 {
+  font-size: 3.653em;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.8em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 input {
   background-color: rgba(187, 188, 189, 0.4);
   width: 50%;
@@ -35,6 +43,7 @@ input {
 
 label {
   color: white;
+  letter-spacing: 0.2em;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: 20;
   padding-top: 0.5em;
@@ -47,6 +56,7 @@ form {
   padding-bottom: 1.222em;
   border-radius: 25px;
   margin: auto;
+  margin-top: 2.027em;
   align-content: center;
 }
 
