@@ -35,10 +35,22 @@ h1 {
   color: rgba(0, 0, 0, 0.5);
 }
 
+h2 {
+  font-size: 2.281em;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+  margin-top: 2.027em;
+  letter-spacing: 0.3em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
 input {
   background-color: rgba(187, 188, 189, 0.4);
   width: 50%;
   align-self: center;
+  margin: 0.79em;
+  padding: 0.889em;
 }
 
 label {
@@ -46,7 +58,7 @@ label {
   letter-spacing: 0.2em;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: 20;
-  padding-top: 0.5em;
+  padding-top: 0.493em;
 }
 
 form {
@@ -56,7 +68,7 @@ form {
   padding-bottom: 1.222em;
   border-radius: 25px;
   margin: auto;
-  margin-top: 2.027em;
+  margin-top: 0.889em;
   align-content: center;
 }
 
