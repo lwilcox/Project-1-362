@@ -11,12 +11,6 @@ $('#contact-form').on('submit',
 
 
     //  Not sure whats wrong with my birthday validation but it's not working....
-    if (!(birthday > agecheck)) {
-      console.log('must be 18 years or older');
-      $('#birthday-input').remove('#warning');
-      $('#birthday-input').append('<li id="warning">must be 18 years or older</li>');
-      return false;
-    }
     if(!(check2.test(phone)))
     {
       console.log('invalid phone number');
