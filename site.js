@@ -14,8 +14,8 @@ $('#contact-form').on('submit',
     if(!(check2.test(phone)))
     {
       console.log('invalid phone number');
-      $('#warning').remove;
-      $('#phone-input').append('<li id="warning">Please enter a valid telephone number</li>');
+      $('#phone-warning').remove();
+      $('#phone-input').append('<li id="phone-warning">Please enter a valid telephone number</li>');
       return false;
     }
     if(!(check3.test(email)))
@@ -28,7 +28,7 @@ $('#contact-form').on('submit',
     else {
       e.preventDefault();
       $(this).remove();
-      $('body').append('<h1>Thank You! Your form has been submitted. Email Address: ' + email + '</h1>');
+      $('body').append('<h1 id="thankyou">Thank You, ' + name + '! Your form has been submitted. Email Address: ' + email + '</h1>');
     }
   }
 );

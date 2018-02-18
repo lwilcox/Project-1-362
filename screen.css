@@ -96,8 +96,12 @@ form, li {
   background:-moz-radial-gradient(51% 50% 35deg, #FFFFFF, #D1CFC7 68%)
 }
 
-#warning {
+#phone-warning {
   color: red;
+  letter-spacing: 0.2em;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 20;
+  padding-top: 0.493em;
 }
 
 #birthday {
