@@ -101,7 +101,27 @@ form, li {
   letter-spacing: 0.2em;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: 20;
-  padding-top: 0.493em;
+  font-size: 0.79em;
+  padding-top: 0.35em;
+}
+
+#email-warning {
+  color: red;
+  letter-spacing: 0.2em;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 20;
+  font-size: 0.79em;
+  padding-top: 0.35em;
+}
+
+#thankyou {
+  font-size: 1em;
+  text-align: center;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-weight: lighter;
+  margin-top: 1.424em;
+  letter-spacing: 0.3em;
+  color: white;
 }
 
 #birthday {
