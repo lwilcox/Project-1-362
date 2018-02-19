@@ -43,8 +43,17 @@ $('#contact-form').on('submit',
 
 $('#learn-more').on('click',
   function(e) {
-    e.preventDefault();
-    $('#learn').remove();
-    $('form').append('<p id="learn">Logan Media is an up and coming film production company, and we are looking for new recruits to join the filming and editing team! When you submit this form, we will send you an email with in depth instructions on how to continue. We are excited to hear from you and hope you join the team!');
-  }
+      e.preventDefault();
+      $('#learn').remove();
+      $('#close').remove();
+      $('form').append('<p id="learn">Logan Media is an up and coming film production company, and we are looking for new recruits to join the filming and editing team! When you submit this form, we will send you an email with in depth instructions on how to continue. We are excited to hear from you and hope you join the team!');
+      $('form').append('<h3 id="close"><a id="close" href="close/">CLOSE</a></h3>');
+      $('#close').on('click',
+        function(e) {
+          e.preventDefault();
+          $('#close').remove();
+          $('#learn').remove();
+        }
+      );
+    }
   );
