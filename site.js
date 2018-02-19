@@ -32,11 +32,11 @@ $('#contact-form').on('submit',
       $('#phone-input').remove();
       $('#submit').remove();
       $('#learn-more').remove();
-      $('form').remove();
+      //$('form').remove();
       //$(this).remove();
-      $('body').append('<h1 id="thankyou">Thank You, ' + name + '!</h1>');
-      $('body').append('<h1 id="thankyou">Your form has been submitted.</h1>');
-      $('body').append('<h1 id="thankyou">Email Address: ' + email + '</h1>');
+      $('form').append('<h1 id="thankyou">Thank You, ' + name + '!</h1>');
+      $('form').append('<h1 id="thankyou">Your form has been submitted.</h1>');
+      $('form').append('<h1 id="thankyou">Email Address: ' + email + '</h1>');
     }
   }
 );
