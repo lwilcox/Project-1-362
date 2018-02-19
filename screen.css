@@ -19,7 +19,7 @@ html {
 
 /* This body section will probably need to be changed to a min-width media query */
 body {
-  background: url("media/DSC05257.jpg") no-repeat center center fixed;;
+  background: url("media/DSC05257.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,10 +61,9 @@ p {
   text-align: center;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: lighter;
-  margin-top: 1.424em;
   letter-spacing: 0.3em;
   color: white;
-  width: 300px;
+  width: 16.667em;
   margin: auto;
   margin-top: 0.889em;
   align-content: center;
@@ -76,27 +75,26 @@ input {
   align-self: center;
   margin: 0.79em;
   padding: 0.889em;
-  border-radius: 10px;
+  border-radius: 0.556em;
 }
 
 label {
   color: white;
   letter-spacing: 0.2em;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-weight: 20;
   padding-top: 0.493em;
 }
 
 form {
   background-color: rgba(0, 0, 0, 0.5);
-  width: 300px;
+  width: 16.667em;
   padding-top: 1.222em;
   padding-bottom: 1.222em;
-  border-radius: 10px;
+  border-radius: 0.556em;
   margin: auto;
   margin-top: 0.889em;
   align-content: center;
-  position: fixed center;
+  position: inherit;
 }
 
 form, li {
@@ -108,14 +106,13 @@ form, li {
 #submit {
   background-color: white;
   margin-top: 2em;
-  background:-moz-radial-gradient(51% 50% 35deg, #FFFFFF, #D1CFC7 68%)
+  background: -moz-radial-gradient(51% 50% 35deg, #FFFFFF, #D1CFC7 68%);
 }
 
 #phone-warning {
   color: red;
   letter-spacing: 0.2em;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-weight: 20;
   font-size: 0.79em;
   padding-top: 0.35em;
 }
@@ -124,7 +121,6 @@ form, li {
   color: red;
   letter-spacing: 0.2em;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  font-weight: 20;
   font-size: 0.79em;
   padding-top: 0.35em;
 }
@@ -134,18 +130,17 @@ form, li {
   text-align: center;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight: lighter;
-  margin-top: 1.424em;
   letter-spacing: 0.3em;
   color: white;
-  width: 300px;
+  width: 16.667em;
   margin: auto;
   margin-top: 0.889em;
   align-content: center;
-  position: fixed center;
+  position: inherit;
 }
 
 #contact-form {
-  margin-top:3em;
+  margin-top: 3em;
 }
 
 #birthday {

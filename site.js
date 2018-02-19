@@ -3,12 +3,12 @@ $('#contact-form').on('submit',
     var phone = $('#phone').val();
     var email = $('#email').val();
     var name = $('#name').val();
-    var birthday = $('#birthday').val();
-    var check = new Date();
-    var agecheck = check.getYear();
+    // var birthday = $('#birthday').val();
+    // var check = new Date();
+    // var agecheck = check.getYear();
     var check2 = /\d{10}/;
-    var check3 = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    check = new Date(check.setYear(check.getYear() - 18));
+    var check3 = /^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/;
+    // check = new Date(check.setYear(check.getYear() - 18));
 
     if(!(check3.test(email)))
     {
@@ -32,8 +32,8 @@ $('#contact-form').on('submit',
       $('#phone-input').remove();
       $('#submit').remove();
       $('#learn-more').remove();
-      //$('form').remove();
-      //$(this).remove();
+      // $('form').remove();
+      // $(this).remove();
       $('form').append('<h1 id="thankyou">Thank You, ' + name + '!</h1>');
       $('form').append('<h1 id="thankyou">Your form has been submitted.</h1>');
       $('form').append('<h1 id="thankyou">Email Address: ' + email + '</h1>');
@@ -43,17 +43,17 @@ $('#contact-form').on('submit',
 
 $('#learn-more').on('click',
   function(e) {
-      e.preventDefault();
-      $('#learn').remove();
-      $('#close').remove();
-      $('form').append('<p id="learn">Logan Media is an up and coming film production company, and we are looking for new recruits to join the filming and editing team! When you submit this form, we will send you an email with in depth instructions on how to continue. We are excited to hear from you and hope you join the team!');
-      $('form').append('<h3 id="close"><a id="close" href="close/">CLOSE</a></h3>');
-      $('#close').on('click',
-        function(e) {
-          e.preventDefault();
-          $('#close').remove();
-          $('#learn').remove();
-        }
-      );
-    }
-  );
+    e.preventDefault();
+    $("#learn").remove();
+    $('#close').remove();
+    $('form').append('<p id="learn">Logan Media is an up and coming film production company, and we are looking for new recruits to join the filming and editing team! When you submit this form, we will send you an email with in depth instructions on how to continue. We are excited to hear from you and hope you join the team!');
+    $('form').append('<h3 id="close"><a id="close" href="close/">CLOSE</a></h3>');
+    $('#close').on('click',
+      function(e) {
+        e.preventDefault();
+        $('#close').remove();
+        $('#learn').remove();
+      }
+    );
+  }
+);
