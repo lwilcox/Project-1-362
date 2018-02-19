@@ -106,7 +106,7 @@ form, li {
 }
 
 #submit {
-  background-color: none;
+  background-color: white;
   margin-top: 2em;
   background:-moz-radial-gradient(51% 50% 35deg, #FFFFFF, #D1CFC7 68%)
 }
