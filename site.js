@@ -32,10 +32,19 @@ $('#contact-form').on('submit',
       $('#phone-input').remove();
       $('#submit').remove();
       $('#learn-more').remove();
+      $('form').remove();
       //$(this).remove();
-      $('form').append('<h1 id="thankyou">Thank You, ' + name + '!</h1>');
-      $('form').append('<h1 id="thankyou">Your form has been submitted.</h1>');
-      $('form').append('<h1 id="thankyou">Email Address: ' + email + '</h1>');
+      $('body').append('<h1 id="thankyou">Thank You, ' + name + '!</h1>');
+      $('body').append('<h1 id="thankyou">Your form has been submitted.</h1>');
+      $('body').append('<h1 id="thankyou">Email Address: ' + email + '</h1>');
     }
   }
 );
+
+$('#learn-more').on('click',
+  function(e) {
+    e.preventDefault();
+    $('#learn').remove();
+    $('form').append('<p id="learn">Logan Media is an up and coming film production company, and we are looking for new recruits to join the filming and editing team! When you submit this form, we will send you an email with in depth instructions on how to continue. We are excited to hear from you and hope you join the team!');
+  }
+  );
