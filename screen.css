@@ -76,7 +76,7 @@ input {
   align-self: center;
   margin: 0.79em;
   padding: 0.889em;
-  border-radius: 25px;
+  border-radius: 10px;
 }
 
 label {
@@ -92,7 +92,7 @@ form {
   width: 300px;
   padding-top: 1.222em;
   padding-bottom: 1.222em;
-  border-radius: 25px;
+  border-radius: 10px;
   margin: auto;
   margin-top: 0.889em;
   align-content: center;
